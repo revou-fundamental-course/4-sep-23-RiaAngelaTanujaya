@@ -1,0 +1,122 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    padding: 60px;
+    background-color: #331D2C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: antiquewhite;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold ;
+    color: #141E46 ;
+}
+
+
+
+input{
+    padding: 6px;
+    border: 2px solid  ;
+    border-radius: 4px ;
+    border-color: #E19898;
+    outline: none;
+}
+
+button{
+    padding: 10px 16px;  
+    border-radius: 4px ;
+    margin-bottom: 10px;
+    border:1px solid;
+    font-weight:bold ;
+    cursor: pointer;
+    background-color: palegreen ;
+    color:#141E46; 
+    box-shadow: 0 5px #999;
+}
+
+button:hover{
+    background-color: seagreen;
+}
+
+button:active{
+    background-color:seagreen ;
+    box-shadow: 0 2px #666;
+    transform: translateY(5px) ;
+}
+
+input:focus{
+    border-color: #A2678A;
+}
+
+h1 { 
+    display: flex;
+    font-size: 30px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+
+h2 { 
+    display: flex;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #A2678A;
+    border-radius: 25px;
+    
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.myDiv1{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.myDiv2{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.luasInputSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.kelilingInputSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.inputButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
