@@ -12,6 +12,15 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-shadow: 5px 5px 10px red;
+}
+
+body{
+    align-items: center;
+    background-color: #FFFFDD;
+   /* background: rgb(148,187,233);*/
+    /*background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);*/
+    
 }
 
 label{
@@ -20,6 +29,7 @@ label{
     font-size: 20px;
     font-weight: bold ;
     color: #141E46 ;
+    
 }
 
 
@@ -30,10 +40,18 @@ input{
     border-radius: 4px ;
     border-color: #E19898;
     outline: none;
+    transition: box-shadow .3s;
+    background: #fff;
+    float: left;
+}
+
+input:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 button{
     padding: 10px 16px;  
+    text-shadow: 1px 1px #F8FDCF;
     border-radius: 4px ;
     margin-bottom: 10px;
     border:1px solid;
@@ -74,9 +92,13 @@ h2 {
     display: flex;
     padding: 15px 0;
     text-align: center;
-    background-color: #A2678A;
-    border-radius: 25px;
-    
+    text-shadow: -2px 2px #F8FDCF;
+    /*background-color: #FEFFAC;*/
+    background: rgb(244,240,240);
+    background: linear-gradient(90deg, rgba(244,240,240,1) 0%, rgba(241,190,212,1) 100%);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /*box-shadow: #141E46;*/
     font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;

@@ -6,10 +6,15 @@
     <title>Kalkulator Persegi</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
+    <script src="js/script.js"></script>
+    
     <header>
         <h1>KALKULATOR MATEMATIKA</h1>
     </header>
+    
     <section class="luasInputSection">
         <h2> Luas Persegi</h2>
         <div class="myDiv1">
@@ -19,21 +24,23 @@
         <input type="number" id="inputField" placeholder="Masukkan sisi">
     </section>
     <section class="inputButtonSection"> 
-        <button>Hitung</button>
-        <button>Reset</button>
+        <button onclick="displayArea()">Hitung</button>
+        <button onclick="resetInputArea()">Reset</button>
     </section>
 
+    
     <section class="kelilingInputSection">
         <h2> Keliling Persegi</h2>
         <div class="myDiv2">
             <p><img src="img_perimeter.png" alt="Perimeter" > </p>
         </div>
         <label for="inputField"> sisi persegi</label>
-        <input type="number" id="inputField" placeholder="Masukkan sisi">
+      
+        <input type="number" id="inputPerimeterField" placeholder="Masukkan sisi">
     </section>
     <section class="inputButtonSection"> 
-        <button>Hitung</button>
-        <button>Reset</button>
+        <button onclick="displayPerimeter()">Hitung</button>
+        <button onclick="resetInputPerimeter()">Reset</button>
     </section>
     <main></main>
     <footer></footer>
